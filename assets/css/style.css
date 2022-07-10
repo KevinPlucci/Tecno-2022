@@ -1,16 +1,19 @@
 * {
   box-sizing: border-box; }
 
-a {
-  text-decoration: none; }
-
 ul, li {
   list-style: none;
   margin: 0;
   padding: 0; }
 
+.antiPadding {
+  padding: 0 0 0 0; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0; }
+
+.antiMargin {
+  margin: 0 0 0 0; }
 
 a:hover, button:hover {
   cursor: pointer; }

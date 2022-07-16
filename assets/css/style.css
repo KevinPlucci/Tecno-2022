@@ -150,7 +150,8 @@ a:hover, button:hover {
   color: #333333;
   grid-area: footer;
   padding: 1rem;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
 
 .container-product {
   margin: 10px; }

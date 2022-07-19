@@ -1,0 +1,35 @@
+.populares__contenido {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 0rem;
+  }
+  
+  .populares__card {
+	background: #fdfdfd;
+	display: grid;
+	grid-template-areas: "card-imagem" "card-corpo";
+	grid-template-columns: 100%;
+	grid-template-rows: 173px auto;
+	margin-right: 1rem;
+	width: calc(25% - 1rem);
+  
+	&:last-child {
+	  margin-right: 0;
+	}
+  }
+  
+  .populares__icon {
+	margin-right: .25rem;
+  }
+  
+  .populares__header {
+	border-bottom: 1px solid #dcdcdc;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .populares__boton {
+	background: transparent;
+	border: none;
+	color: #333333;
+  }
